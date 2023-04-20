@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.dashboard-container{
+  /* font-family: 'Space Grotesk', sans-serif;
+  padding: 50px 30px;
+  position: relative;
+    width: 1440px;
+    height: 2209px; */
+    padding: 50px 30px;
+}
+.dashboard-container input{
+  width: max-content;
+}
+.dashboard-container h3{
+  margin: 5px 0 2px ;
+}
+.dashboard-container p{
+  text-align: left;
+  color: #000;
+}
+
+.manager-admin-pane {
+  position: relative;
+  height: 100%;
+  /* display: flex; */
+  padding: 50px 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  font-size: 18px;
+  /* height: 370px; */
+  width: 455px;
+}
+.manager-dashoard {
+  position: relative;
+  padding: 50px 30px;
+  /* width: 100%; */
+  /* height: 100%; */
+  /* left: 0px;
+  top: 0px; */
+  background: #FFFFFF;
+  /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px; */
+}
+.manager-admin-pane .avatar {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  /* left: 20px;
+  top: 20px; */
+  background: url(avatar.jpg), #FFFFFF;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.manager-admin-pane .details {
+  /* position: absolute; */
+  /* width: 400px;
+  height: 200px; */
+  /* left: 20px;
+  top: 120px; */
+}
+
+.manager-admin-pane .details div{
+  margin-bottom: 30px;
+}
+  .hotel-info {
+  position: absolute;
+  width: 373px;
+  height: 164px;
+  left: 374x;
+  top: 489px;
+  background-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1A2E3D;
+  }
+  .additionalInfo{
+    position: relative;
+    font-family: 'Space Grotesk', sans-serif;
+
+  }
+  .additionalInfo p{
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .additional-info-card {
+    position: relative;
+    /* width: 531px;
+    height: 222px; */
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    /* left: 865px;
+    top: 312px; */
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    }
+    .additionalRecord {
+    /* position: absolute; */
+    width: 445.62px;
+    height: 37px;
+    /* left: 924.35px;
+    top: 349px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #1A2E3D;
+    }
+    .dateJoined {
+    /* position: absolute; */
+    width: 175.99px;
+    height: 53px;
+    /* left: 909px;
+    top: 399px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
+    color: #1A2E3D;
+    }
+    .record-details{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .record-details p{
+      font-size: 14px;
+    }
+    .last-update {
+      /* position: absolute; */
+      width: 175.99px;
+      height: 34px;
+      /* left: 1160.84px;
+      top: 406px; */
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      text-indent: 15px;
+      color: #1A2E3D;
+
+    }
+    .managerId {
+    /* position: absolute; */
+    width: 175.99px;
+    height: 53px;
+    /* left: 909px;
+    top: 472px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #1A2E3D;
+    }
+    .totalHotels {
+    /* position: absolute; */
+    width: 175.99px;
+    height: 53px;
+    /* left: 1160.84px;
+    top: 472px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    }
+    .total-amount-generated-card{
+      /* position: absolute; */
+      padding: 30px 50px;
+      /* width: 531px;
+      height: 130px; */
+      /* left: 865px;
+      top: 552px; */
+      background: #FFFFFF;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 25px;
+}
+.total-amount-generated {
+/* position: absolute; */
+/* width: 460.46px;
+height: 97px; */
+/* left: 905.8px;
+top: 564px; */
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 23px;
+color: #1A2E3D;
+}
+
+.manager-container {
+  padding: 5%0%5%0%;
+}
+.top-section{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.top-right{
+  padding: 70px 50px;
+}
+.top-left{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.amount {
+/* position: absolute; */
+/* width: 460.46px;
+height: 97px; */
+/* left: 905.8px;
+top: 600px; */
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 23px;
+
+color: #1A2E3D;
+}
+  .managerTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1020px;
+    height: 1311px; */
+    padding: 70px, 50px;
+    background: #F4F7FC;
+    overflow-x: scroll;
+    margin: 0 auto;
+  }
+
+  .add-customer{
+    width: max-content;
+    border-radius: 4px;
+    color:#ffffff;
+  }
+  tr {
+    position: relative;
+    text-align: justify;
+  }
+table {
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2E3B52;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 6px;
+  justify-content: center;
+}
+.ManagerSearchBar {
+  margin-bottom: 5px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: left; */
+  padding: 10px;
+  /* gap: 30px; */
+}
+.table-head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #F4F7FC;
+  padding: 10px;
+}
+.add-hotel new-style {
+  /* width: max-content; */
+  /* border-radius: 4px; */
+  /* color:#ffffff; */
+  background-color: #ffffff;
+}
+.ManagerFilterIcon {
+  font-size: 20px;
+}
+.ManagersearchInput {
+  width: max-content;
+  position: absolute;
+  border-radius: 4px;
+  display: inline-block;
+}
+.ManagersearchInput input {
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background-color: #dae1ec;
+  border: 1px solid #dae1ec;
+}
+.ManagerSearchIcon {
+  font-size: 20px;
+  position: absolute;
+  top: 25%;
+  left: 7px;
+}
+td {
+  padding: 18px 8px;
+  /* text-align: center; */
+}
+th {
+  text-align: center;
+  padding: 18px 8px;
+  width: 20px;
+  border-spacing: 5px;
+}
+.ManagerCrud {
+  display: flex;
+  padding: 18px 8px;
+  text-align: center;
+}
+.Manager-pagination {
+  display: flex;
+}
+Manager-pagination h4 {
+  display: inline-flex;
+}
+.ManagerCheckBox {
+  width: 20px;
+  color: #606F89;
+}
+tr:nth-child(even) {
+  background-color: #f4f7fc;
+}
+tr:hover {
+  background-color: #4b515b26;
+}
+
+.manager-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 2px solid #BDBDBD;
+}
+
+.manager-head span{
+  font-size: 40px;
+  font-weight: 500;
+  color: #1A2E3D;
+  border: 1px solid #BDBDBD;
+  padding: 15px 40px 8px;
+  border-radius: 15px;
+}
+.table-head-first th {
+  position: relative;
+  text-align: left;
+}

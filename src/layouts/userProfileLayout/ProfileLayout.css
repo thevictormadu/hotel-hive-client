@@ -1,0 +1,175 @@
+.pl_mainContainer {
+    position: relative;
+
+
+}
+
+
+.pl_container {
+    /* display: flex;
+    height: 100vh;
+    width: 100vw; */
+    /* border: 1px solid red; */
+    /* margin-top: 50px; */
+    position: relative;
+    top: 30px;
+}
+
+.sideBar_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    background: #ffffffd4;
+    /* opacity: 0.76; */
+}
+
+.pl_sideBar{
+    display: flex;
+    background-color:#2067A1;
+    flex-direction: column;
+    /* align-items: space-between; */
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: 90%;
+}
+
+.pl_iconGroup, .pl_iconContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.pl_iconGroup a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    margin: 20px 0px;
+    padding: 5px 0px;
+    /* width: 150px */
+}
+
+.active{
+    background: rgba(255, 255, 255, 0.95);
+    color: #2067A1;
+}
+
+.pl_iconContainer {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.pl_Icons {
+    width: 50px;
+    height: 50px;
+}
+
+.pl_formContainer{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.pl_formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pl_form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #173752;
+    width: 40%;
+    /* height: 70%; */
+    border-radius: 20px;
+    padding: 10px;
+     justify-content: center; 
+    align-items: center;
+}
+
+.pl_formInputContainer{
+    width: 90%;
+    border: 1px solid #2067A1 ;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 10px 0px ;
+    
+}
+
+.pl_formInputContainer, .pl_formInput{
+    border-radius: 10px;
+}
+
+.pl_formInput{
+    width: 90%;
+    height: 95%;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    /* border: 1px solid rgb(0, 0, 255) ; */
+    border-radius: 10px 0px 0px 10px;
+}
+
+.pl_penImg{
+    margin-left: 5px;
+}
+
+.pen_ctner{
+    /* border: 1px solid red; */
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.pen_ctner:hover{
+    cursor: pointer;
+}
+
+.pl_formNestedDiv{
+
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pl_h1{
+        align-items: center;
+        /* border: 1px solid rgb(16, 169, 93) ; */
+       border-radius: 0px;
+       display: flex;
+       width: 90%;
+       margin: 50px 0px 20px ;
+}
+
+.pl_titleContainer h1, .pl_titleContainer h2{
+    
+    flex-direction: column;
+    display: flex;
+    margin: 0px 0px 0px 10px; 
+    padding: 0px 5px; 
+    /* border: 1px solid rgb(46, 5, 63) ; */
+    font-weight: 400;
+}
+
+.pl_titleContainer h1{
+    font-size: 40px;
+}
+
+.pl_titleContainer h2{
+    font-size: 25px;
+}
+
+.profileImage{
+    height: 70px;
+    width: 70px;
+    /* margin-right: 20px; */
+}
+
+
+

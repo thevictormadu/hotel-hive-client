@@ -1,0 +1,139 @@
+/* The side navigation menu */
+.sidenav {
+    height: 200%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 75px; /* Stay at the top */
+    left: 0;
+    background-color:#2067A1; /* White*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 20px;  Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border-top: 2px solid #2067Ac;
+  }
+  
+  /* The navigation menu links */
+  .sidenav div a {
+    padding: 25px 10px 25px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    height: 7rem;
+    /* background-color:black; */
+  }
+
+  .sidenav div a img{
+    width: 3rem;
+  }
+
+  .sidenav div{
+    text-align: center;
+  }
+
+  .logout div a img{
+    display: block;
+    width: 2rem;  
+    padding-top: 0.5rem;
+    margin-left: 6rem;
+  }
+  .logout div a{
+    font-size: 1rem;
+  }
+  
+/* .sidenav .tab:active{
+    color: black ;
+    background-color: white;
+  } */
+  
+  
+  /* When you mouse over the navigation links, change their color */
+  /* .sidenav a:hover {
+    color: #f1f1f1;
+  }
+   */
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #000;
+  }
+
+  .active {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    padding-top: 6rem;
+    margin-left: 250px;
+    transition: margin-left .5s;
+    background-color: #F6FCFF;
+  }
+  
+
+.nav{
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+   }
+
+.menu{
+    padding:0.6rem;
+    margin-left: 1.7rem;
+    font-size: 2rem;
+}
+
+.nav input{
+    padding:0.3rem;
+    margin: 1rem;
+    margin-left: 15rem;
+    width: 15rem;
+    background: url(../assets/Search.svg) no-repeat scroll left;
+    background-color: #F6FCFF;
+    padding-left:30px;
+    border-radius: 5px;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 65rem;
+}
+.bell{
+    /* padding:0.6rem; */
+    margin: 0.7rem;
+    margin-right: 1rem;
+    font-size: 1.3em;
+    align-self: center;
+}
+.name{
+    padding:0.5rem;
+    padding-bottom: 1.7rem;
+    margin: 0.7rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    align-self: center;
+    border-left: 2px solid black;
+    width: 18rem;
+    height: 1.5rem;
+}
+.profile, .dropdownImg{
+    padding:0.2rem;
+    padding-top: .1rem;
+    font-size: 1.3em;
+}
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

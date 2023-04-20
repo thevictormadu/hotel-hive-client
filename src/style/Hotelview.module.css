@@ -1,0 +1,133 @@
+.body{
+    background-color: #F6FCFF;
+    height: auto;
+    padding: 3% 7% 3% 7%;
+}
+
+.listSection{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #AFB3BC;
+}
+
+.listSection h3{
+    text-align: left;
+}
+
+.sortSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:40%;
+}
+
+.sortSection form{
+    width: 70%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.sortSection form input{
+    width: 100%;
+    height: inherit;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.hotelContainer{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0%;
+    border-radius: 8px;
+}
+
+.hotelImgContainer{
+    align-self: center;
+}
+
+
+.hotelImgContainer img{
+    width: 200px;
+    height: 200px;
+}
+
+.hotelTextContainer{
+    text-align: left;
+    width: 50%;
+}
+
+.hotelp2{
+    text-align: justify;
+}
+
+.nav, .categories, .filter{
+    display: flex;
+}
+
+.nav{
+    justify-content: space-between;
+}
+
+.categories, .filter{
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    border: 1px solid #2067A1;
+    height: 4vh;
+    margin-top: 3%;
+}
+
+.categories{
+    width: 40%;
+    height: inherit;
+    text-align: center;
+}
+
+.filter{
+    width: 50%;
+    text-align: center;
+    height: inherit;
+}
+
+.active{
+    width: 15%;
+    background-color: #2067A1;
+}
+
+.active2{
+    width:30%;
+    background-color: #2067A1;
+}
+
+.starLowest, .house{
+    border-left: 1px solid #2067A1;
+}
+
+.house{
+    width: 50%;
+}
+
+.starHighest{
+    width: 50%;
+}
+
+.starLowest{
+    width: 50%;
+}
+
+.viewMoreButton{
+    padding: 5px;
+    margin: 10px 1px 15px ;
+}
+
+.AddAmenityButton{
+    padding: 5px;
+    margin: 10px 1px 15px 10px;
+}

@@ -1,0 +1,17 @@
+.mrBtn{
+    padding: 16px;
+    background-color: #2067a1;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.mrContainer{
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-top: 10%;
+    margin-left: 150%;
+    width: 140px;
+    cursor: pointer;
+}
