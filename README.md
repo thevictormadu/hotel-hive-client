@@ -23,8 +23,6 @@ Contributions are welcome!
 ## License
 
 This project is part of my work at Decagon.
-```
-
 I hope that helps! Let me know if you have any other questions.
 
 ## Getting Started with Create React App
